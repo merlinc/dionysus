@@ -1,0 +1,21 @@
+web:
+  build: web
+  links:
+   - worker
+   - db
+  ports:
+   - "9000:9000"
+  environment: 
+   NODE_ENV: development
+worker:
+  build: worker
+  links:
+   - db
+  ports:
+   - "9090:9090"
+  environment: 
+   NODE_ENV: development
+db:
+  image: mongo
+  ports: 
+   - "27017:27017"

@@ -1,0 +1,9 @@
+{
+  "name": "dionysus-worker",
+  "description": "Worker service for processing remote APIs",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "^4.13.1",
+    "forever": "~0.14.2"
+  }
+}

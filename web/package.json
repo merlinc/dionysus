@@ -1,0 +1,12 @@
+{
+  "name": "dionysus-web",
+  "description": "Web host for generating event based playlists",
+  "version": "0.0.1",
+  "dependencies": {
+    "grunt": "0.4.5",
+    "express": "^4.13.1",
+    "forever": "~0.14.2"
+  },
+  "devDependencies": {
+  }
+}
